@@ -1,211 +1,369 @@
-/* Importing Google font - Poppins
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #body{
+        background-color: rgb(255, 255, 255);
+    }
+    * {
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+        margin: 0;
+    
+        padding: 0;
+    
+        box-sizing: border-box;
+    
+        font-family: Arial, sans-serif;
+    
+    }
+    
+    body {
+    
+        color: #333333;
+    
+        line-height: 1.6;
+    
+    }
+
+    .container2{
+        position: relative;
+        top: 100px;
+    }
+
+    #picc3{
+        width: 100%;
+        height: 10em;
+    }
+
+ 
+
+    #picture2{
+        width: 100%;
+        height: 25%;
+    }
+
+    .container0{
+        display: inline-flex;
+
+    }
+
+    #img1{
+        width: 32vw;
+        height: auto;
+    }
+
+    .container0 ul{
+        position: relative;
+        left: 10px;
+        display: inline-flex;
+
+    }
+
+    .container0 li{
+        padding: 10px;
+        position: relative;
+        right: 40px;
+        font-size: 4.4vw;
+        list-style: none;
+    }
+
+    .container0 li a{
+                text-decoration: none;
+
+    }
+
+
+
+    
+    .container {
+    
+    
+    
+        padding: 20px;
+
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+
+    #img2{
+        width: 100vw;
+        height: auto;
+
+    }
+
+    #text{
+        position: relative;
+        bottom: 100px;
+        width: 82%;
+        left: 6%;
+    }
+
+    #form{
+        position: relative;
+        top: 330px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+
+
+    
+    .hero {
+    
+        text-align: center;
+    
+        padding: 50px 0;
+    
+    }
+    
+    .hero h1 {
+    
+        font-size: 36px;
+    
+        margin-bottom: 20px;
+    
+    }
+    
+    .hero p {
+    
+        font-size: 18px;
+    
+        margin-bottom: 20px;
+    
+    }
+    
+    .hero form {
+    
+        margin-bottom: 20px;
+    
+    }
+    
+    .hero form input {
+    
+        padding: 10px;
+    
+        font-size: 16px;
+    
+        margin-right: 10px;
+    
+    }
+    
+    .hero form button {
+    
+        padding: 10px 20px;
+    
+        font-size: 16px;
+    
+        background: #156ef5;
+    
+        color: #fff;
+    
+        border: none;
+    
+        cursor: pointer;
+    
+    }
+    
+    .hero img {
+    
+        margin-top: 20px;
+    
+        max-width: 100%;
+    
+        height: auto;
+    
+    }
+    
+    .productivity {
+    
+        background: #f4f4f4;
+    
+        padding: 50px 0;
+    
+    }
+    
+    .productivity h2 {
+    
+        font-size: 28px;
+    
+        margin-bottom: 20px;
+    
+        text-align: center;
+    
+    }
+    
+    .productivity p {
+    
+        font-size: 16px;
+    
+        margin-bottom: 20px;
+    
+        text-align: center;
+    
+    }
+    
+    .productivity a {
+    
+        display: block;
+    
+        text-align: center;
+    
+        text-decoration: none;
+    
+        color: #4addf7;
+    
+        margin-bottom: 20px;
+    
+    }
+    
+    .productivity blockquote {
+    
+        font-style: italic;
+    
+        background: #fff;
+    
+        padding: 20px;
+    
+        margin: 20px 0;
+    
+        border-left: 10px solid #333;
+    
+    }
+    
+    .productivity blockquote cite {
+    
+        display: block;
+    
+        margin-top: 10px;
+    
+        text-align: right;
+    
+        font-style: normal;
+    
+    }
+    
+    .early-access {
+    
+        text-align: center;
+    
+        padding: 50px 0;
+    
+    }
+    
+    .early-access h2 {
+    
+        font-size: 28px;
+    
+        margin-bottom: 20px;
+    
+    }
+    
+    .early-access p {
+    
+        font-size: 16px;
+    
+        margin-bottom: 20px;
+    
+    }
+    
+    .early-access form input {
+    
+        padding: 10px;
+    
+        font-size: 16px;
+    
+        margin-right: 10px;
+    
+    }
+    
+    .early-access form button {
+    
+        padding: 10px 20px;
+    
+        font-size: 16px;
+    
+        background: #3391e9;
+    
+        color: #fff;
+    
+        border: none;
+    
+        cursor: pointer;
+    
+    }
+    
+    footer {
+    
+        background: #333;
+    
+        color: #fff;
+    
+        padding: 20px 0;
+    
+        text-align: center;
+    
+    }
+    
+    footer .footer-logo {
+    
+        font-size: 24px;
+    
+        font-weight: bold;
+    
+        margin-bottom: 10px;
+    
+    }
+    
+    footer .footer-info p {
+    
+        margin-bottom: 10px;
+    
+    }
+    
+    footer nav ul {
+    
+        list-style: none;
+    
+        margin-bottom: 10px;
+    
+    }
+    
+    footer nav ul li {
+    
+        display: inline;
+    
+        margin-left: 10px;
+    
+    }
+    
+    footer nav ul li a {
+    
+        text-decoration: none;
+    
+        color: #fff;
+    
+    }
+    
+    footer .social-links a {
+    
+        margin: 0 10px;
+    
+    }
+    
+    footer .social-links img {
+    
+        width: 20px;
+    
+        height: 20px;
+    
+    } 
+
 }
 
-body {
-  min-height: 100vh;
-  background: #ffffff;
-}
- */@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-  }
-  nav{
-   position: fixed;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 75px;
-   background: #ffffff;
-   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  }
-  nav .navbar{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   height: 100%;
-   max-width: 90%;
-   background: #ffffff;
-   margin: auto;
-  }
-  nav .navbar .logo a{
-    color: #fff;
-    font-size: 27px;
-    font-weight: 600;
-    text-decoration: none;
-  }
-  nav .navbar .menu{
-    display: flex;
-  }
-  .navbar .menu li{
-    list-style: none;
-    margin: 0 15px;
-  }
-  .navbar .menu li a{
-    color: #fff;
-    font-size: 17px;
-    font-weight: 500;
-    text-decoration: none;
-  }
-  section{
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    color: #96c7e8;
-    font-size: 70px;
-  }
-  #Home{
-    background: #fff;
-  }
-  #About{
-    background: #f2f2f2;
-  }
-  #Category{
-    background: #e6e6e6;
-  }
-  #Latest{
-    background: #fff;
-  }
-  #Contact{
-    background: #f2f2f2;
-  }
-  #Feedback{
-    background: #e6e6e6;
-  }
-  .button a{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    color: #fff;
-    background: #2980b9;
-    padding: 7px 12px;;
-    font-size: 18px;
-    border-radius: 6px;
-    box-shadow: rgba(0, 0, 0, 0.15);
-  }
-  body {
-  
-      font-family: Arial, sans-serif;
-  
-      margin: 0;
-  
-      padding: 0;
-  
-  }
-  
-  footer {
-  
-      background-color: #0a2239;
-  
-      color: #ffffff;
-  
-      padding: 20px 0;
-  
-      text-align: left;
-  
-  }
-  
-  .container {
-  
-      width: 80%;
-  
-      margin: 0 auto;
-  
-      display: flex;
-  
-      justify-content: space-between;
-  
-      align-items: center;
-  
-  }
-  
-  .footer-content {
-  
-      display: flex;
-  
-      justify-content: space-between;
-  
-      width: 100%;
-  
-  }
-  
-  .footer-left {
-  
-      max-width: 50%;
-  
-  }
-  
-  .logo {
-  
-      font-size: 1.5em;
-  
-      font-weight: bold;
-  
-  }
-  
-  .footer-left p {
-  
-      margin: 5px 0;
-  
-  }
-  
-  .footer-left a {
-  
-      color: #ffffff;
-  
-      text-decoration: none;
-  
-  }
-  
-  .footer-right ul {
-  
-      list-style: none;
-  
-      padding: 0;
-  
-      margin: 0;
-  
-      display: flex;
-  
-      flex-wrap: wrap;
-  
-  }
-  
-  .footer-right li {
-  
-      margin: 0 10px;
-  
-  }
-  
-  .footer-right a {
-  
-      color: #ffffff;
-  
-      text-decoration: none;
-  
-  }
-  
-  .social-icons a {
-  
-      margin-right: 10px;
-  
-  }
-  
-  .social-icons img {
-  
-      width: 20px;
-  
-      height: 20px;
-  
-  }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+
